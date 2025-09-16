@@ -20,8 +20,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "prefix-renamer.rename",
-        "title": "Prefix Renamer"
+        "command": "amigo-renamer.rename",
+        "title": "Amigo Renamer"
       }
     ]
   },

@@ -19,7 +19,7 @@ The extension provides a simple interface to:
 ## How to Use
 
 1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the command palette
-2. Type "Prefix Renamer" and select the command
+2. Type "Amigo Renamer" and select the command
 3. In the panel that appears:
    - Enter the words to be prefixed (one per line)
    - Enter the prefix you want to add

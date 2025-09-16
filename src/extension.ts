@@ -3,13 +3,13 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
-    console.log('Extension "prefix-renamer" is now active');
+    console.log('Extension "amigo-renamer" is now active');
 
-    let disposable = vscode.commands.registerCommand('prefix-renamer.rename', async () => {
+    let disposable = vscode.commands.registerCommand('amigo-renamer.rename', async () => {
         // Create and show a webview panel for user input
         const panel = vscode.window.createWebviewPanel(
-            'prefixRenamer',
-            'Prefix Renamer',
+            'amigoRenamer',
+            'Amigo Renamer',
             vscode.ViewColumn.One,
             {
                 enableScripts: true
@@ -42,7 +42,7 @@ function getWebviewContent() {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Prefix Renamer</title>
+        <title>Amigo Renamer</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -87,7 +87,7 @@ function getWebviewContent() {
         </style>
     </head>
     <body>
-        <h1>Prefix Renamer</h1>
+        <h1>Amigo Renamer</h1>
         <div class="form-group">
             <label for="wordsList">Words to add prefix (one per line):</label>
             <textarea id="wordsList" placeholder="Enter words to add prefix, one per line"></textarea>

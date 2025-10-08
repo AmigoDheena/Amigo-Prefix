@@ -2,12 +2,13 @@
   "name": "amigo-prefix",
   "displayName": "Amigo Prefix",
   "description": "Add Prefix to your Selection",
-  "version": "0.0.1",
-  "publisher": "your-publisher-name",
+  "version": "0.0.2",
+  "publisher": "AmigoDheena",
   "repository": {
     "type": "git",
     "url": "https://github.com/amigodheena"
   },
+  "icon": "images/icon.png",
   "license": "MIT",
   "engines": {
     "vscode": "^1.104.0"
